@@ -1,0 +1,69 @@
+* {
+    background-color: pink;
+}
+.container{
+    border: 4px solid black;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    padding: 5% ;
+    height: 500px;
+    padding-top: 10%;
+   
+
+}
+.button {
+   
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+   
+  }
+
+  .button:hover {
+    color: blue;
+    background: white;
+  }
+
+  
+  .button:active {
+    color: green;
+  }
+
+  header {
+    background-color: white;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.left{
+    margin-left: 5%;
+    border: 3px dashed black;
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5%;
+    
+}
+
+.right{
+    width: 50%;
+    border:3px dashed black;
+    margin-left: 5%;
+    padding: 5%;
+}
+
+button{
+    background-color: bisque;
+}
+p{
+    padding: center;
+}
